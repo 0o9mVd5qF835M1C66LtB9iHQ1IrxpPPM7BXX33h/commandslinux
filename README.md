@@ -20,26 +20,18 @@ You only need to add one JS-file, one CSS-file and some minimal setup to make th
 
 Dependencies: jQuery and Bootstrap 5.
 
-#### 📚 networking protocols: communication
-MATRIX, IRC, IMAP, IMAPS, POP3, POP3S, POP2, SMTP, TMTP, RPOP, APOP, JMAP, EXCHANGE, POP, IMAP2bis, IMAP3, IMAP4, SMTPS, Session, MLS(Message Layer Security), XMPP, ActivityPub
-
-#### 📚 networking protocols: file transfer
-FTP, FTPS, HTTP, HTTPS, GOPHER, GOPHERS, SSH, WEBDAV, Localsend, Remote-storage, SOLID-PROJECT,  HYPERCORE, REMOTE-STORAGE, IPFS, BITTORRENT, DAT, SFTP, SMB, SMBS, TELNET, TFTP
-
-#### 📚 networking protocols: sync
-DAVx⁵, CalDAV, EteSync, DecSync CC
-
-#### 📚 networking protocols: services
-DNS, DoH(DNS over HTTPS)
-
-#### 📚 networking protocols: storage
-FILE-COIN, FILE
- 
-#### 📚 networking protocols: file transfer
-DICT, LDAP, LDAPS, MQTT, RTMP, RTSP, SCP, WS, WSS, SPRING83, ARP, ICMP, IP, ICMP, SNMP, SMDB, BLOCK-CHAIN, SNMP, SMDB, Atek's, Gradesta, Dlive, Ambients, DomainConnect, Waku, RSS3, RSS, AT
-
-#### 📚 networking protocols: notification
-WEBMENTION, PUSH, PUSH, Push (Previously EPNS - Communication Protocol of Web3), GCM
+#### 📚 networking protocols
+- communication: IP, ICMP
+- email: IMAP, IMAPS, POP3, POP3S, POP2, SMTP, TMTP, RPOP, APOP, JMAP, EXCHANGE, POP, IMAP2bis, IMAP3, IMAP4, SMTPS, Session, MLS(Message Layer Security)
+- chat: MATRIX, IRC, XMPP, ActivityPub, ARP
+- web/browser: HTTP, HTTPS, GOPHER, GOPHERS, Gemini, EarthStar, Pigeon, Scuttlebutt
+- file transfer: FTP, FTPS, SSH, WEBDAV, Localsend, Remote-storage, SOLID-PROJECT, HYPERCORE, REMOTE-STORAGE, IPFS, BITTORRENT, DAT, SFTP, SMB, SMBS, TELNET, TFTP
+- service: DNS, DoH(DNS over HTTPS)
+- storage: FILE-COIN, FILE
+- etc: SMDB, DICT, LDAP, LDAPS, MQTT, RTMP, RTSP, SCP, WS, WSS, SPRING83, SNMP, SMDB, SNMP, Atek's, Gradesta, Dlive, Ambients, DomainConnect, Waku, AT
+- storage/communication: BLOCK-CHAIN
+- notification: WEBMENTION, PUSH, PUSH, Push (Previously EPNS - Communication Protocol of Web3), GCM, RSS3, RSS
 
 #### 📚 standards
-Web Components, BLOCK-PROTOCOL
+- ui: Web Components, BLOCK-PROTOCOL
+- sync: DAVx⁵, CalDAV, EteSync, DecSync CC
