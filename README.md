@@ -20,5 +20,26 @@ You only need to add one JS-file, one CSS-file and some minimal setup to make th
 
 Dependencies: jQuery and Bootstrap 5.
 
-#### 📚 networking protocols, standards
-DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS, WSS, IPFS, WEBDAV, Localsend, HYPERCORE, REMOTE-STORAGE, SSH, MLS(Message Layer Security), WEBMENTION, Session, SPRING83, ARP, POP, EXCHANGE, JMAP, ICMP, IP, ICMP, SNMP, SMDB, BLOCK-PROTOCOL, SOLID-PROJECT, FILE-COIN, BITTORRENT, RPOP, APOP, ActivityPub, MATRIX, IRC, TMTP, IMAP2bis, IMAP3, IMAP4, DAT, SMTP, BLOCK-CHAIN, SNMP, SMDB, DAVx⁵, CalDAV, EteSync, DecSync CC, Atek's, Gradesta, Dlive, Ambients, DomainConnect, Waku, RSS3, RSS, AT, Web Components
+#### 📚 networking protocols: communication
+MATRIX, IRC, IMAP, IMAPS, POP3, POP3S, POP2, SMTP, TMTP, RPOP, APOP, JMAP, EXCHANGE, POP, IMAP2bis, IMAP3, IMAP4, SMTPS, Session, MLS(Message Layer Security), XMPP, ActivityPub
+
+#### 📚 networking protocols: file transfer
+FTP, FTPS, HTTP, HTTPS, GOPHER, GOPHERS, SSH, WEBDAV, Localsend, Remote-storage, SOLID-PROJECT,  HYPERCORE, REMOTE-STORAGE, IPFS, BITTORRENT, DAT, SFTP, SMB, SMBS, TELNET, TFTP
+
+#### 📚 networking protocols: sync
+DAVx⁵, CalDAV, EteSync, DecSync CC
+
+#### 📚 networking protocols: services
+DNS, DoH(DNS over HTTPS)
+
+#### 📚 networking protocols: storage
+FILE-COIN, FILE
+ 
+#### 📚 networking protocols: file transfer
+DICT, LDAP, LDAPS, MQTT, RTMP, RTSP, SCP, WS, WSS, SPRING83, ARP, ICMP, IP, ICMP, SNMP, SMDB, BLOCK-CHAIN, SNMP, SMDB, Atek's, Gradesta, Dlive, Ambients, DomainConnect, Waku, RSS3, RSS, AT
+
+#### 📚 networking protocols: notification
+WEBMENTION, PUSH, PUSH, Push (Previously EPNS - Communication Protocol of Web3), GCM
+
+#### 📚 standards
+Web Components, BLOCK-PROTOCOL
