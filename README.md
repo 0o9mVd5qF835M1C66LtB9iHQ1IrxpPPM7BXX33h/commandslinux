@@ -24,8 +24,8 @@ Dependencies: jQuery and Bootstrap 5.
 - communication: IP, ICMP, TCP, UDP
 - email: IMAP, IMAPS, POP3, POP3S, POP2, SMTP, TMTP, RPOP, APOP, JMAP, EXCHANGE, POP, IMAP2bis, IMAP3, IMAP4, SMTPS, Session, MLS(Message Layer Security)
 - chat: MATRIX, IRC, XMPP, ActivityPub, ARP
-- web/browser: HTTP, HTTPS, GOPHER, GOPHERS, Gemini, EarthStar, Pigeon, Scuttlebutt
-- file transfer: FTP, FTPS, SSH, WEBDAV, Localsend, Remote-storage, SOLID-PROJECT, HYPERCORE, REMOTE-STORAGE, IPFS, BITTORRENT, DAT, SFTP, SMB, SMBS, TELNET, TFTP
+- web/browser/hypermedia: HTTP, HTTPS, GOPHER, GOPHERS, Gemini, EarthStar, Pigeon, Scuttlebutt, DAT(Hypermedia peer-to-peer protocol)
+- file transfer: FTP, FTPS, SSH, WEBDAV, Localsend, Remote-storage, SOLID-PROJECT, HYPERCORE, REMOTE-STORAGE, IPFS, BITTORRENT, SFTP, SMB, SMBS, TELNET, TFTP
 - service: DNS, DoH(DNS over HTTPS)
 - storage: FILE-COIN, FILE
 - etc: SMDB, DICT, LDAP, LDAPS, MQTT, RTMP, RTSP, SCP, WS, WSS, SPRING83, SNMP, SMDB, SNMP, Atek's, Gradesta, Dlive, Ambients, DomainConnect, Waku, AT
