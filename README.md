@@ -30,7 +30,7 @@ Dependencies: jQuery and Bootstrap 5.
 - storage: FILE-COIN, FILE
 - etc: SMDB, DICT, LDAP, LDAPS, MQTT, RTMP, RTSP, SCP, WS, WSS, [SPRING83](https://github.com/robinsloan/spring-83), SNMP, SMDB, SNMP, Atek's, Gradesta, Dlive, Ambients, DomainConnect, Waku, AT
 - storage/communication: BLOCK-CHAIN
-- notification: WEBMENTION, PUSH, PUSH(Previously EPNS - Communication Protocol of Web3), GCM, RSS3, RSS, UnifiedPush, MSNP/MNP(Microsoft Notification Protocol or Mobile Status Notification Protocol) 
+- notification: WEBMENTION, PUSH, PUSH(Previously EPNS - Communication Protocol of Web3), GCM(Google Cloud Messaging), RSS3, RSS, UnifiedPush, MSNP/MNP(Microsoft Notification Protocol or Mobile Status Notification Protocol) 
 
 #### 📚 standards
 - ui: Web Components, BLOCK-PROTOCOL
