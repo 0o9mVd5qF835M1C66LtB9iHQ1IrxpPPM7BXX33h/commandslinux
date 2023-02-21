@@ -20,6 +20,29 @@ You only need to add one JS-file, one CSS-file and some minimal setup to make th
 
 Dependencies: jQuery and Bootstrap 5.
 
+#### 📊 benchmarketing
+- release vs version
+- release vs version
+- release vs version vs alternative
+- release vs alternative
+- version vs alternative
+- release vs type(open source/closed-source/public-domain etc)
+- release vs implementation
+- version vs implementation
+- release vs version vs implementation
+- killer app vs release vs version
+- killer app vs release
+- killer app vs version
+- killer app vs alternative vs type
+- killer app vs alternative
+- killer app vs type
+- killer app vs category
+- killer app vs issue
+- killer app vs license
+- killer app vs demo
+- killer app vs status
+...
+                                                            
 #### 📚 networking protocols
 - communication: IP, ICMP, TCP, UDP
 - email: IMAP, IMAPS, POP3, POP3S, POP2, SMTP, TMTP, RPOP, ARP, APOP, JMAP, EXCHANGE, POP, IMAP2bis, IMAP3, IMAP4, SMTPS, Session, MLS(Message Layer Security)
