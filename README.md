@@ -22,11 +22,13 @@ Dependencies: jQuery and Bootstrap 5.
 
 #### 📚 networking protocols
 - communication: IP, ICMP, TCP, UDP
-- email: IMAP, IMAPS, POP3, POP3S, POP2, SMTP, TMTP, RPOP, APOP, JMAP, EXCHANGE, POP, IMAP2bis, IMAP3, IMAP4, SMTPS, Session, MLS(Message Layer Security)
-- chat: MATRIX, IRC, XMPP, ActivityPub, ARP
+- email: IMAP, IMAPS, POP3, POP3S, POP2, SMTP, TMTP, RPOP, ARP, APOP, JMAP, EXCHANGE, POP, IMAP2bis, IMAP3, IMAP4, SMTPS, Session, MLS(Message Layer Security)
+- chat: MATRIX, IRC(Internet Relay Chat), XMPP, ActivityPub, MQTT
 - web/browser/hypermedia: HTTP, HTTPS, GOPHER, GOPHERS, Gemini, EarthStar, Pigeon, Scuttlebutt, DAT(Hypermedia peer-to-peer protocol)
+- message: SignalR, Kafka
 - file transfer: FTP, FTPS, SSH, WEBDAV, Localsend, Remote-storage, SOLID-PROJECT, HYPERCORE, REMOTE-STORAGE, IPFS, BITTORRENT, SFTP, SMB, SMBS, TELNET, TFTP
 - service: DNS, DoH(DNS over HTTPS)
+- streaming: WebRTC, Socket.IO
 - storage: FILE-COIN, FILE
 - etc: SMDB, DICT, LDAP, LDAPS, MQTT, RTMP, RTSP, SCP, WS, WSS, [SPRING83](https://github.com/robinsloan/spring-83), SNMP, SMDB, SNMP, Atek's, Gradesta, Dlive, Ambients, DomainConnect, Waku, AT
 - storage/communication: BLOCK-CHAIN
