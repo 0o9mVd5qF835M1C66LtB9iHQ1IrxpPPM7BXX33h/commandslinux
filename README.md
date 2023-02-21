@@ -64,3 +64,6 @@ Dependencies: jQuery and Bootstrap 5.
 #### 📚 standards
 - ui: Web Components, BLOCK-PROTOCOL
 - sync: DAVx⁵, CalDAV, EteSync, DecSync CC
+
+## License
+MIT License.
