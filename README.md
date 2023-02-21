@@ -26,6 +26,9 @@ Dependencies: jQuery and Bootstrap 5.
 - release vs version vs alternative
 - release vs alternative
 - version vs alternative
+- what is
+- pros and cons
+- analyses(Big O)
 - release vs type(open source/closed-source/public-domain etc)
 - release vs implementation
 - version vs implementation
