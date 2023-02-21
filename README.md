@@ -1,10 +1,10 @@
 # networking-protocols
 This is an experimental benchmarking for all networking protocols. It was *originally* based on [Filament Group's experimental repo](https://github.com/filamentgroup/RWD-Table-Patterns), []() but has during the years grown up to be a more complete solution with new features. Please see this [demo](https://eantho.github.io/networking-protocols)
 
-## Screenshot
+## screenshot
 ![image](https://user-images.githubusercontent.com/125943841/220423094-d829aca6-328a-4b60-b48c-c28a9ee89202.png)
 
-## Features:
+## features:
 
 #### :bird: Made for Bootstrap
 Designed to be used with Bootstrap 5. If you don't want to use bootstrap, just fork the repo and customize it to your needs!
