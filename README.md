@@ -19,3 +19,6 @@ In browsers without JavaScript, the tables will still be scrollable. I.e. there'
 You only need to add one JS-file, one CSS-file and some minimal setup to make the tables responsive.
 
 Dependencies: jQuery and Bootstrap 5.
+
+#### 📚 Easy to use
+DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS, WSS, IPFS, WEBDAV, Localsend
