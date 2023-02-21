@@ -22,6 +22,7 @@ Dependencies: jQuery and Bootstrap 5.
 
 #### 📊 benchmarketing
 - release vs version
+- mounth, day
 - release vs alternative
 - release vs version vs alternative
 - release vs alternative
