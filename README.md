@@ -21,7 +21,7 @@ You only need to add one JS-file, one CSS-file and some minimal setup to make th
 Dependencies: jQuery and Bootstrap 5.
 
 #### 📚 networking protocols
-- communication: IP, ICMP
+- communication: IP, ICMP, TCP, UDP
 - email: IMAP, IMAPS, POP3, POP3S, POP2, SMTP, TMTP, RPOP, APOP, JMAP, EXCHANGE, POP, IMAP2bis, IMAP3, IMAP4, SMTPS, Session, MLS(Message Layer Security)
 - chat: MATRIX, IRC, XMPP, ActivityPub, ARP
 - web/browser: HTTP, HTTPS, GOPHER, GOPHERS, Gemini, EarthStar, Pigeon, Scuttlebutt
