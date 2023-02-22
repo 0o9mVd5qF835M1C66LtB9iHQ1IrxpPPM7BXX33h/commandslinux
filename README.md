@@ -80,6 +80,11 @@ See this [delfos](https://eantho.github.io/delfos) or [delfos/stats](https://ean
 #### 📚 formats
 - markup formats: commonmark, html, markdown etc
 
+#### 📚 guide-design
+- fluent design: Microsoft
+- aero: Microsoft
+- photo: Mozilla Firefox
+
 #### 📚 apps/services
 - storage: google drive, dropbox etc
 
