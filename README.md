@@ -6,7 +6,7 @@ Delfos is an experimental benchmarking for all networking protocols, apps, stand
 Originally written by eantho, licensed in MIT with contributors. the logo is licensed with [FlatIcon](https://www.flaticon.com/free-icon/server_7317974?term=oracle&page=1&position=83&origin=search&related_id=7317974). 
 
 ## screenshot
-![image](https://user-images.githubusercontent.com/125943841/220423094-d829aca6-328a-4b60-b48c-c28a9ee89202.png)
+![image](https://user-images.githubusercontent.com/125943841/220529060-065312f0-d9b1-4f13-9b8b-6eef366dbed9.png)
 
 ## features:
 
