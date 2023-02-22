@@ -57,15 +57,23 @@ Dependencies: jQuery and Bootstrap 5.
    - Alternative POP: RPOP, ARP, APOP 
    - Alternative SMTP: Session, MLS(Message Layer Security), TMTP, JMAP, EXCHANGE
 - chat: MATRIX, IRC(Internet Relay Chat), XMPP, ActivityPub, MQTT
-- web/browser/hypermedia: HTTP/0.9, HTTP/1, HTTP/2, HTTP/3(or HTTP2+QUIC/99), HTTPS, GOPHER, GOPHERS, Gemini, EarthStar, Pigeon, Scuttlebutt, DAT(Hypermedia peer-to-peer protocol), nostr
+- web/browser/hypermedia: 
+    - HTTP(HTTP/0.1-0.9, HTTP/1, HTTP/2, HTTP/3(or HTTP2+QUIC/99), HTTPS) 
+    - Alternative HTTP: GOPHER(GOPHER, GOPHERS) Gemini, EarthStar, Pigeon, Scuttlebutt, DAT(Hypermedia peer-to-peer protocol), nostr, FTP or IPFS
 - message: SignalR, Kafka, Bitmessage
-- file transfer: FTP, FTPS, SSH, WEBDAV, Localsend, Remote-storage, SOLID-PROJECT, HYPERCORE, REMOTE-STORAGE, IPFS, BITTORRENT, SFTP, TELNET, TFTP
-- service: DNS, DoH(DNS over HTTPS), IPNS, DoH3, NameCoin
+- file transfer:
+   - FTP(FTP, FTPS, SFTP, TFTP)
+   - Alternative FTP: SSH, WEBDAV, Localsend, Remote-storage, SOLID-PROJECT, HYPERCORE, REMOTE-STORAGE, IPFS, BITTORRENT, TELNET or TELNET/SSL
+- service: 
+   - DNS
+   - Alternative DNS: DoH(DNS over HTTPS), IPNS, DoH3, NameCoin
 - streaming: WebRTC, Socket.IO, FSP
-- storage: FILE-COIN, FILE
+- storage: 
+  - FILE
+  - Alternative FILE: FILECOIN
 - application: SMDB, DICT, LDAP, LDAPS, MQTT, RTMP, RTSP, SCP, WS, WSS, [SPRING83](https://github.com/robinsloan/spring-83), SNMP, Atek's, Gradesta, Dlive, Ambients, DomainConnect, Waku, AT
 - sync: SMB, SMBS
-- storage/communication: BLOCK-CHAIN
+- storage/communication: BLOCKCHAIN
 - notification: WEBMENTION, PUSH, PUSH(Previously EPNS - Communication Protocol of Web3), GCM(Google Cloud Messaging), RSS3, RSS, UnifiedPush, MSNP/MNP(Microsoft Notification Protocol or Mobile Status Notification Protocol) 
 - route/encapsulation: TOR, SPLIP
 
