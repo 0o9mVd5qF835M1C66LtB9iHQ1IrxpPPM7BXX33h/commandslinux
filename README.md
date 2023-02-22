@@ -51,7 +51,7 @@ Dependencies: jQuery and Bootstrap 5.
 - communication: IP, ICMP, TCP, UDP, QUIC
 - email: IMAP, IMAPS, POP3, POP3S, POP2, SMTP, TMTP, RPOP, ARP, APOP, JMAP, EXCHANGE, POP, IMAP2bis, IMAP3, IMAP4, SMTPS, Session, MLS(Message Layer Security)
 - chat: MATRIX, IRC(Internet Relay Chat), XMPP, ActivityPub, MQTT
-- web/browser/hypermedia: HTTP/1, HTTP/2, HTTP/3(or HTTP2+QUIC/99), HTTPS, GOPHER, GOPHERS, Gemini, EarthStar, Pigeon, Scuttlebutt, DAT(Hypermedia peer-to-peer protocol), nostr
+- web/browser/hypermedia: HTTP/0.9, HTTP/1, HTTP/2, HTTP/3(or HTTP2+QUIC/99), HTTPS, GOPHER, GOPHERS, Gemini, EarthStar, Pigeon, Scuttlebutt, DAT(Hypermedia peer-to-peer protocol), nostr
 - message: SignalR, Kafka
 - file transfer: FTP, FTPS, SSH, WEBDAV, Localsend, Remote-storage, SOLID-PROJECT, HYPERCORE, REMOTE-STORAGE, IPFS, BITTORRENT, SFTP, TELNET, TFTP
 - service: DNS, DoH(DNS over HTTPS), IPNS, DoH3
