@@ -36,6 +36,7 @@ Dependencies: jQuery and Bootstrap 5.
 - release vs version vs implementation
 - killer app vs release vs version
 - killer app vs release
+- who(organization/people/group/annonymous)
 - killer app vs version
 - killer app vs alternative vs type
 - killer app vs alternative
