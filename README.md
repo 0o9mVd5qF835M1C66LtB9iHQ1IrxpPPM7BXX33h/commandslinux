@@ -1,9 +1,9 @@
-<img src="https://cdn-icons-png.flaticon.com/512/2915/2915534.png" width="90"/>
+<img src="https://cdn-icons-png.flaticon.com/512/2915/2915534.png" width="80"/>
 
 # delfos
 Delfos is an experimental benchmarking for all networking protocols, apps, standards, services, providers and/or formats. It was *originally* based on [Filament Group's experimental repo](https://github.com/filamentgroup/RWD-Table-Patterns) but has during the years grown up to be a more complete solution with new features. Please see this [demo](https://eantho.github.io/networking-protocols)
 
-Originally written by eantho, licensed in MIT with contributors.
+Originally written by eantho, licensed in MIT with contributors. the logo is licensed with FlatIcon.
 
 ## screenshot
 ![image](https://user-images.githubusercontent.com/125943841/220423094-d829aca6-328a-4b60-b48c-c28a9ee89202.png)
