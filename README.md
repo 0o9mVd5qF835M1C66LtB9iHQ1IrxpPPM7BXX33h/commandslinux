@@ -1,7 +1,7 @@
 # delfos
 Delfos is an experimental benchmarking for all networking protocols and/or standards. It was *originally* based on [Filament Group's experimental repo](https://github.com/filamentgroup/RWD-Table-Patterns), []() but has during the years grown up to be a more complete solution with new features. Please see this [demo](https://eantho.github.io/networking-protocols)
 
-Originally written by eantho, licensed in license MIT with contributors.
+Originally written by eantho, licensed in MIT with contributors.
 
 ## screenshot
 ![image](https://user-images.githubusercontent.com/125943841/220423094-d829aca6-328a-4b60-b48c-c28a9ee89202.png)
