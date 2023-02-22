@@ -63,7 +63,7 @@ Dependencies: jQuery and Bootstrap 5.
 - message: SignalR, Kafka, Bitmessage
 - file transfer:
    - FTP(FTP, FTPS, SFTP, TFTP)
-   - Alternative FTP: SSH, WEBDAV, Localsend, Remote-storage, SOLID-PROJECT, HYPERCORE, REMOTE-STORAGE, IPFS, BITTORRENT, TELNET or TELNET/SSL
+   - Alternative FTP: SSH, WEBDAV, Localsend, SOLID-PROJECT, HYPERCORE, REMOTE-STORAGE, IPFS, BITTORRENT, TELNET or TELNET/SSL
 - service: 
    - DNS
    - Alternative DNS: DoH(DNS over HTTPS), IPNS, DoH3, NameCoin
