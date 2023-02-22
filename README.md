@@ -72,8 +72,8 @@ Dependencies: jQuery and Bootstrap 5.
 - storage: 
   - FILE
   - Alternative FILE: FILECOIN
-- application: SMDB, DICT, LDAP, LDAPS, MQTT, RTMP, RTSP, SCP, WS, WSS, [SPRING83](https://github.com/robinsloan/spring-83), SNMP, Atek's, Gradesta, Dlive, Ambients, DomainConnect, Waku, AT
-- sync: SMB, SMBS
+- "etc/application": STUNNEL, SMDB, DICT, LDAP, LDAPS, MQTT, RTMP, RTSP, SCP, WS, WSS, [SPRING83](https://github.com/robinsloan/spring-83), SNMP, Atek's, Gradesta, Dlive, Ambients, DomainConnect, Waku, AT
+- sync: SMB, SMBS, RSYNC
 - storage/communication: BLOCKCHAIN
 - notification: 
   - WEBMENTION, PUSH, RSS
