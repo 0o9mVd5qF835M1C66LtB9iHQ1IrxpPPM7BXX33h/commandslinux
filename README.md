@@ -23,32 +23,19 @@ You only need to add one JS-file, one CSS-file and some minimal setup to make th
 Dependencies: jQuery and Bootstrap 5.
 
 #### 📊 benchmarketing
-- release vs version
-- mounth, day
-- release vs alternative
-- release vs version vs alternative
-- release vs alternative
-- version vs alternative
-- what is
-- pros and cons
-- analyses(Big O)
+- release vs version or release vs alternative
+- release vs version vs alternative or release vs alternative
+- version vs alternative or what is
+- pros and cons or analyses(Big O)
 - release vs type(open source/closed-source/public-domain etc)
-- release vs implementation
-- version vs implementation
-- release vs version vs implementation
-- killer app vs release vs version
-- killer app vs release
-- who(organization/people/group/annonymous)
-- killer app vs version
-- killer app vs alternative vs type
-- killer app vs alternative
-- killer app vs type
-- killer app vs category
-- killer app vs issue
-- killer app vs license
-- killer app vs demo
-- killer app vs status
-...
+- release vs implementation or version vs implementation
+- release vs version vs implementation or killer app vs release vs version
+- killer app vs release or who(organization/people/group/annonymous)
+- killer app vs version or killer app vs alternative vs type
+- killer app vs alternative or killer app vs type
+- killer app vs category or killer app vs issue
+- killer app vs license or killer app vs demo or killer app vs status
+> ...
                                                             
 #### 📚 networking protocols
 - communication: IP, ICMP, TCP, UDP, QUIC
