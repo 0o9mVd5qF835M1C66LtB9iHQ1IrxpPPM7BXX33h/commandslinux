@@ -54,7 +54,7 @@ Dependencies: jQuery and Bootstrap 5.
 - web/browser/hypermedia: HTTP/0.9, HTTP/1, HTTP/2, HTTP/3(or HTTP2+QUIC/99), HTTPS, GOPHER, GOPHERS, Gemini, EarthStar, Pigeon, Scuttlebutt, DAT(Hypermedia peer-to-peer protocol), nostr
 - message: SignalR, Kafka, Bitmessage
 - file transfer: FTP, FTPS, SSH, WEBDAV, Localsend, Remote-storage, SOLID-PROJECT, HYPERCORE, REMOTE-STORAGE, IPFS, BITTORRENT, SFTP, TELNET, TFTP
-- service: DNS, DoH(DNS over HTTPS), IPNS, DoH3
+- service: DNS, DoH(DNS over HTTPS), IPNS, DoH3, NameCoin
 - streaming: WebRTC, Socket.IO, FSP
 - storage: FILE-COIN, FILE
 - application: SMDB, DICT, LDAP, LDAPS, MQTT, RTMP, RTSP, SCP, WS, WSS, [SPRING83](https://github.com/robinsloan/spring-83), SNMP, Atek's, Gradesta, Dlive, Ambients, DomainConnect, Waku, AT
