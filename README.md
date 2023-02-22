@@ -64,6 +64,7 @@ Dependencies: jQuery and Bootstrap 5.
 - file transfer:
    - FTP(FTP, FTPS, SFTP, TFTP)
    - Alternative FTP: SSH, WEBDAV, Localsend, SOLID-PROJECT, HYPERCORE, REMOTE-STORAGE, IPFS, BITTORRENT, TELNET or TELNET/SSL
+- auth: WEB-AUTHN, WEB3-AUTHN(or Torus), OAUTH(OAUTH, OAUTH/2, OAUTH/3)
 - service: 
    - DNS
    - Alternative DNS: DoH(DNS over HTTPS), IPNS, DoH3, NameCoin
