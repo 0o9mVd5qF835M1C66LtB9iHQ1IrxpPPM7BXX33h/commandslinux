@@ -48,18 +48,20 @@ Dependencies: jQuery and Bootstrap 5.
 ...
                                                             
 #### 📚 networking protocols
-- communication: IP, ICMP, TCP, UDP
+- communication: IP, ICMP, TCP, UDP, QUIC
 - email: IMAP, IMAPS, POP3, POP3S, POP2, SMTP, TMTP, RPOP, ARP, APOP, JMAP, EXCHANGE, POP, IMAP2bis, IMAP3, IMAP4, SMTPS, Session, MLS(Message Layer Security)
 - chat: MATRIX, IRC(Internet Relay Chat), XMPP, ActivityPub, MQTT
-- web/browser/hypermedia: HTTP, HTTPS, GOPHER, GOPHERS, Gemini, EarthStar, Pigeon, Scuttlebutt, DAT(Hypermedia peer-to-peer protocol)
+- web/browser/hypermedia: HTTP, HTTPS, GOPHER, GOPHERS, Gemini, EarthStar, Pigeon, Scuttlebutt, DAT(Hypermedia peer-to-peer protocol), nostr
 - message: SignalR, Kafka
-- file transfer: FTP, FTPS, SSH, WEBDAV, Localsend, Remote-storage, SOLID-PROJECT, HYPERCORE, REMOTE-STORAGE, IPFS, BITTORRENT, SFTP, SMB, SMBS, TELNET, TFTP
-- service: DNS, DoH(DNS over HTTPS)
-- streaming: WebRTC, Socket.IO
+- file transfer: FTP, FTPS, SSH, WEBDAV, Localsend, Remote-storage, SOLID-PROJECT, HYPERCORE, REMOTE-STORAGE, IPFS, BITTORRENT, SFTP, TELNET, TFTP
+- service: DNS, DoH(DNS over HTTPS), IPNS
+- streaming: WebRTC, Socket.IO, FSP
 - storage: FILE-COIN, FILE
-- etc: SMDB, DICT, LDAP, LDAPS, MQTT, RTMP, RTSP, SCP, WS, WSS, [SPRING83](https://github.com/robinsloan/spring-83), SNMP, SMDB, SNMP, Atek's, Gradesta, Dlive, Ambients, DomainConnect, Waku, AT
+- application: SMDB, DICT, LDAP, LDAPS, MQTT, RTMP, RTSP, SCP, WS, WSS, [SPRING83](https://github.com/robinsloan/spring-83), SNMP, Atek's, Gradesta, Dlive, Ambients, DomainConnect, Waku, AT
+- sync: SMB, SMBS
 - storage/communication: BLOCK-CHAIN
 - notification: WEBMENTION, PUSH, PUSH(Previously EPNS - Communication Protocol of Web3), GCM(Google Cloud Messaging), RSS3, RSS, UnifiedPush, MSNP/MNP(Microsoft Notification Protocol or Mobile Status Notification Protocol) 
+- route/encapsulation: TOR, SPLIP
 
 #### 📚 standards
 - ui: Web Components, BLOCK-PROTOCOL
