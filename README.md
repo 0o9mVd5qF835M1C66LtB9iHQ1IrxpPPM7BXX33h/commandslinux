@@ -1,4 +1,4 @@
-<img src="https://cdn-icons-png.flaticon.com/512/2915/2915534.png" width="70"/>
+<img src="https://cdn-icons-png.flaticon.com/512/7317/7317974.png" width="60"/>
 
 # delfos
 Delfos is an experimental benchmarking for all networking protocols, apps, standards, services, providers and/or formats. It was *originally* based on [Filament Group's experimental repo](https://github.com/filamentgroup/RWD-Table-Patterns) but has during the years grown up to be a more complete solution with new features. Please see this [demo](https://eantho.github.io/networking-protocols)
