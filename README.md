@@ -1,7 +1,7 @@
 <img src="https://cdn-icons-png.flaticon.com/512/7317/7317974.png" width="50"/>
 
 # delfos
-Delfos is an experimental benchmarking for all networking protocols, apps, standards, services, providers, frameworks, language programming, os and/or file formats. It was *originally* based on [Filament Group's experimental repo](https://github.com/filamentgroup/RWD-Table-Patterns) but has during the years grown up to be a more complete solution with new features. Please see this [demo](https://eantho.github.io/delfos)
+Delfos is an experimental benchmarking for all networking protocols, apps, standards, services, providers, frameworks, language programming, os and/or file formats with stats(from chart-js). It was *originally* based on [Filament Group's experimental repo](https://github.com/filamentgroup/RWD-Table-Patterns) but has during the years grown up to be a more complete solution with new features. Please see this [demo](https://eantho.github.io/delfos)
 
 Originally written by eantho, licensed in MIT with contributors. the logo is licensed with [FlatIcon](https://www.flaticon.com/free-icon/server_7317974?term=oracle&page=1&position=83&origin=search&related_id=7317974). 
 
