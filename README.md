@@ -50,7 +50,12 @@ Dependencies: jQuery and Bootstrap 5.
                                                             
 #### 📚 networking protocols
 - communication: IP, ICMP, TCP, UDP, QUIC
-- email: IMAP, IMAPS, POP3, POP3S, POP2, SMTP, TMTP, RPOP, ARP, APOP, JMAP, EXCHANGE, POP, IMAP2bis, IMAP3, IMAP4, SMTPS, Session, MLS(Message Layer Security)
+- email:
+   - IMAP(IMAP, IMAP2bis, IMAP3, IMAP4, IMAPS)
+   - POP(POP, POP3, POP3S, POP2)
+   - SMTP(SMTP, SMTPS)
+   - Alternative POP: RPOP, ARP, APOP 
+   - Alternative SMTP: Session, MLS(Message Layer Security), TMTP, JMAP, EXCHANGE
 - chat: MATRIX, IRC(Internet Relay Chat), XMPP, ActivityPub, MQTT
 - web/browser/hypermedia: HTTP/0.9, HTTP/1, HTTP/2, HTTP/3(or HTTP2+QUIC/99), HTTPS, GOPHER, GOPHERS, Gemini, EarthStar, Pigeon, Scuttlebutt, DAT(Hypermedia peer-to-peer protocol), nostr
 - message: SignalR, Kafka, Bitmessage
