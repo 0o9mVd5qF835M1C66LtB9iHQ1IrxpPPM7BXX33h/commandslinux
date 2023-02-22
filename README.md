@@ -38,7 +38,8 @@ See this [delfos](https://eantho.github.io/delfos) or [delfos/stats](https://ean
 - killer app vs alternative or killer app vs type
 - killer app vs category or killer app vs issue
 - killer app vs license or killer app vs demo or killer app vs status
-> ...
+
+...
                                                             
 #### 📚 networking protocols
 - communication: IP, ICMP, TCP, UDP, QUIC
