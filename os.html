@@ -1,1 +1,621 @@
-
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en-US" class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-US" class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-US" class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-US" class="no-js lt-ie10"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-US" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <title>Delfos</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="description" content="An awesome solution for responsive tables with complex data, designed to be used with Bootstrap 5.">
+        <meta name="keywords" content="responsive tables,complex data,bootstrap 5,column selection,sticky table header, sticky thead, progressive enhancement,mobile first,responsive,rwd,table,plugin">
+        <meta name="theme-color" content="#151619"/>
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="og:title" content="Networking Protocols, for Bootstrap 5">
+        <meta property="og:description" content="Bootstrap 5 plugin for responsive tables with complex data.">
+        <meta property="og:site_name" content="Delfos">
+        <meta property="og:url" content="https://eantho.github.io/delfos/">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://eantho.github.io/delfos/img/responsive_tables.png">
+        <meta property="og:image:width" content="1024">
+        <meta property="og:image:height" content="768">
+        <meta property="og:image:alt" content="Screenshot of site hero.">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link async href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link async href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link async href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/rwd-table.min.css?v=6.1.0">
+        <link rel="stylesheet" href="css/docs.min.css?v=6.1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-19870163-1']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
+    <body id="home" data-bs-spy="scroll" data-bs-target="#navbar">
+        <navbar id="navbar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" role="navigation">
+            <div class="container-fluid" style="background: white; color: black; border: 1px solid #0000000d;">
+                <a class="nav-link" href="#home">
+                    <img src="https://cdn-icons-png.flaticon.com/512/7317/7317974.png" style="width: 30px;">
+                    <span class="navbar-brand" style="color: black;"> Delfos </span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/eantho/networkings/issues" title="issues">Issues</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"" href="https://github.com/eantho/networkings/discussions" title="discussions">Discussions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/eantho/networkings/blob/main/LICENSE" title="license">License</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hover-text-yellow" href="#donate" title="donate">
+                                Donate
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </navbar>
+        </div>
+        <section id="demo">
+            <div class="container-fluid">
+                <div data-responsive-table-toolbar="tech-companies"></div>
+                <div class="table-responsive" id="tech-companies-wrapper" data-pattern="priority-columns" data-sortable="true">
+                    <table cellspacing="0" id="tech-companies" class="table table-small-font table-tighten table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>protocol-name</th>
+                                <th data-priority="1">release</th>
+                                <th data-priority="2">organization</th>
+                                <th data-priority="3">version</th>
+                                <th data-priority="4">alternative</th>
+                                <th data-priority="5">type</th>
+                                <th data-priority="6">implementation</th>
+                                <th data-priority="7">url</th>
+                                <th data-priority="8">status</th>
+                                <th data-priority="9">category</th>
+                                <th data-priority="10">demo</th>
+                                <th data-priority="11">killer app</th>
+                                <th data-priority="12">Issues</th>
+                                <th data-priority="13">License</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Windows</th>
+                                <td>2015</td>
+                                <td>IPFS</td>
+                                <td>None</td>
+                                <td>None</td>
+                                <td>open-source</td>
+                                <td>go</td>
+                                <td>https://discuss.ipfs.tech/</td>
+                                <td>ACTIVE</td>
+                                <td>C, PYTHON, D, PROLOG</td>
+                                <td>go, c, python</td>
+                                <td>IPFS SEARCH, Brave Browser, Mozilla Firefox, Presearch etc</td>
+                                <td>
+                                  <textarea style="width: 468px;height: 25px;" class="form-control">This protocol is not ideal for private or proprietary networks. </textarea>
+                                </td>
+                                <td>MIT License</td>
+                            </tr>
+                            <tr>
+                                <th>MAC-OS</th>
+                                <td>2023</td>
+                                <td>HYPERCORE</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>open-source</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">C, PYTHON, D, PROLOG</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>MIT License</td>
+                            </tr>
+                            <tr>
+                                <th>UBUNTU</th>
+                                <td>2023</td>
+                                <td>WEBDAV</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>open-source</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">C, PYTHON, D, PROLOG</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>Domain public License</td>
+                            </tr>
+                            <tr>
+                                <th>DOS</th>
+                                <td>2007</td>
+                                <td>REMOTE-STORAGE</td>
+                                <td>ADD</td>
+                                <td>WEBDAV</td>
+                                <td>ADD</td>
+                                <td>open-source</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>Domain public License</td>
+                            </tr>
+                            <tr>
+                                <th>SOLARIS</th>
+                                <td>1992</td>
+                                <td>IETF</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>open-source</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>Domain public License</td>
+                            </tr>
+                            <tr>
+                                <th>OPEN SOLARIS</th>
+                                <td>1980</td>
+                                <td>IETF</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>open-source</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                            </tr>
+                            <tr>
+                                <th>UNIX</th>
+                                <td>None</td>
+                                <td>None</td>
+                                <td>None</td>
+                                <td>None</td>
+                                <td>open-source</td>
+                                <td>None</td>
+                                <td>None</td>
+                                <td>ACTIVE</td>
+                                <td>C, PYTHON, D, PROLOG</td>
+                                <td>go, c, python</td>
+                                <td>None</td>
+                                <td>ADD</td>
+                                <td>MIT License</td>
+                            </tr>
+                            <tr>
+                                <th>REDOX</th>
+                                <td>2010</td>
+                                <td>IETF</td>
+                                <td>FTP</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                            </tr>
+                            <!-- Repeat -->
+                            <tr>
+                                <th>KOLIBRI</th>
+                                <td>2014</td>
+                                <td>MNM Group and contributors</td>
+                                <td>ADD</td>
+                                <td>SMTP</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>SLACKWARE</th>
+                                <td>1981</td>
+                                <td>IEFT</td>
+                                <td>ADD</td>
+                                <td>IMAP, POP, JMAP, TMTP, EXCHANGE</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>SLITAZ</th>
+                                <td>1986</td>
+                                <td>IETF</td>
+                                <td>IMAP, IMAP2bis, IMAP3, IMAP4, IMAPS</td>
+                                <td>POP</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>MANJARO</th>
+                                <td>2007</td>
+                                <td>DAT Group and contributors</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>KALI LINUX</th>
+                                <td>2000</td>
+                                <td>BITTORRENT .INC and contributors</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>1993</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>POP</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>1994</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>SMTP, TMTP</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                            </tr>
+                            <!-- Repeat -->
+                            <tr>
+                                <th>add</th>
+                                <td>1994</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>POP</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>2007</td>
+                                <td>W3C</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>Add</td>
+                                <td>Matrix Group and contributors</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>open-source</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>IMAP</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>IMAP, JMAP, POP, SMTP, TMTP</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>POP, POP2, POP3</td>
+                                <td>IMAP</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                            </tr>
+                            <!-- Repeat -->
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>HTTP</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <!-- Repeat -->
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>1997</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>1985</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>1991</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>1986</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                            <tr>
+                                <th>add</th>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>
+                           <tr>
+                                <th>add</th>
+                                <td>1994</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td>ADD</td>
+                                <td colspan="2">ADD</td>
+                            </tr>   
+                        </tbody>
+                    </table>
+                </div>                
+            </div>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/rwd-table.js?v=6.1.0"></script>
+        <script src="js/docs.min.js"></script>
+    </body>
+</html>
